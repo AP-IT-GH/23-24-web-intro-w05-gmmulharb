@@ -17,14 +17,14 @@
   </head>
 
   <body class="p-3 m-0 border-0 bd-example">
-    <nav class="navbar navbar-expand-md bg-light">
-      <a class="nav-link" href="#"><img src="./assets/coffee.png" class="navbar-brand" alt="Koffie & co" width="100" height="100">
+    <nav class="navbar navbar-expand-md bg-light container-fluid">
+      <a class="navbar-brand" href="#"><img src="./assets/coffee.png" class="navbar-brand" alt="Koffie & co" width="100" height="100">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="container collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">home</a>
@@ -33,13 +33,13 @@
             <a class="nav-link" href="#">shop</a>
           </li>
           <li class="nav-item">
-            <a class="dropdown-toggle text-secondary text-justify" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               dropdown
             </a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item"><a class="nav-link" href="#">subpagina 1</a></li>
-              <li class="dropdown-item"><a class="nav-link" href="#">subpagina 2</a></li>
-              <li class="dropdown-item"><a class="nav-link" href="#">subpagina 3</a></li>
+              <li><a class="dropdown-item" href="#">subpagina 1</a></li>
+              <li><a class="dropdown-item" href="#">subpagina 2</a></li>
+              <li><a class="dropdown-item" href="#">subpagina 3</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -48,83 +48,83 @@
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="zoeken" aria-label="Search">
-          <button class="btn btn-sm bt-outline-secondary border border-secondary" type="submit">zoeken</button>
+          <button class="btn btn-sm bt-outline-secondary" type="submit">zoeken</button>
         </form>
       </div>
     </nav>
 
     <header class="row m-5">
-      <h1 class="text-center koffiebruin">may the coffee<br>be with you</h1>
+      <h1 class="col display-2 koffiebruin text-center">may the coffee<br>be with you</h1>
     </header>
 
     <div class="container">
         <div class="row">
           <main class="col-md-9">
             <section id="shopintro" class="row">
-              <article class="col b-3">
+              <article class="col-12 mb-3">
                 <h2 class="text-uppercase fs-4 fw-bolder pt-3">shop</h2>
                 <p>Stap binnen in onze online koffie-oase, waar elke boon een verhaal vertelt en elke slok een reis is door smaakvolle aroma's. Ontdek een uitgelezen selectie van zorgvuldig geselecteerde koffiebonen van over de hele wereld, gebrand om de meest verfijnde smaakprofielen te onthullen. Of je nu een doorgewinterde koffiekenner bent of net begint aan je koffieavontuur, wij bieden een scala aan producten en accessoires om je te begeleiden op jouw reis naar de perfecte kop koffie. Dompel jezelf onder in onze wereld van heerlijke geuren, rijke smaken en ongeëvenaarde kwaliteit - welkom bij de ultieme bestemming voor koffieliefhebbers.</p>
               </article>
               <hr>
 
-              <article class="shop-item col-sm-6 col-md-4">
+              <article class="shop-item col-12 col-sm-6 col-md-4">
                 <h2 class="text-uppercase fs-6 fw-bolder pt-3">Illy</h2>
                 <p class="h6 small">donkere branding</p>
                 <a href="#" rel="noopener">
                   <figure>
-                    <img src="./assets/pexels-1-pixabay.jpg" class="img-responsive" alt="foto van Illy koffiebonen"
+                    <img src="./assets/pexels-1-pixabay.jpg" class="img-fluid" alt="foto van Illy koffiebonen"
                       title="Illy koffiebonen">
-                    <figcaption class="h6 mt-2">&copy; Pixabay</figcaption>
+                    <figcaption class="h6 small mt-2">&copy; Pixabay</figcaption>
                   </figure>
                 </a>
               </article>
-              <article class="col-sm-6 col-md-4">
+              <article class="shop-item col-12 col-sm-6 col-md-4">
                 <h2 class="text-uppercase fs-6 fw-bolder pt-3">Lavazza</h2>
                 <p class="h6 small">aromatische koffiebonen</p>
                 <a href="#" rel="noopener">
-                  <figure><img src="./assets/pexels-2-igor-haritanovich.jpg" class="img-responsive" alt="foto van Lavazza koffiebonen"
+                  <figure><img src="./assets/pexels-2-igor-haritanovich.jpg" class="img-fluid" alt="foto van Lavazza koffiebonen"
                       title="Lavazza koffiebonen">
-                    <figcaption class="h6 mt-2">&copy; Igor Haritanovich</figcaption>
+                    <figcaption class="h6 small mt-2">&copy; Igor Haritanovich</figcaption>
                   </figure>
                 </a>
               </article>
-              <article class="col-sm-6 col-md-4">
+              <article class="shop-item col-12 col-sm-6 col-md-4">
                 <h2 class="text-uppercase fs-6 fw-bolder pt-3">Starbucks</h2>
                 <p class="h6 small">dé koffiemelange</p>
                 <a href="#" rel="noopener">
-                  <figure><img src="./assets/pexels-3-adam-lukac.jpg" class="img-responsive" alt="foto van Starbucks koffiebonen"
+                  <figure><img src="./assets/pexels-3-adam-lukac.jpg" class="img-fluid" alt="foto van Starbucks koffiebonen"
                       title="Starbucks koffiebonen">
-                    <figcaption class="h6 mt-2">&copy; Adam Lukac</figcaption>
+                    <figcaption class="h6 small mt-2">&copy; Adam Lukac</figcaption>
                   </figure>
                 </a>
               </article>
-              <article class="col col-sm-6 col-md-4">
+              <article class="shop-item col-12 col-sm-6 col-md-4">
                 <h2 class="text-uppercase fs-6 fw-bolder pt-3">koffiemolen 1</h2>
                 <p class="h6 small">grotere capaciteit</p>
                 <a href="#" rel="noopener">
-                  <figure><img src="./assets/pexels-4-juan-pablo-serrano-arenas.jpg" class="img-responsive" alt="foto van koffiemolen 1"
+                  <figure><img src="./assets/pexels-4-juan-pablo-serrano-arenas.jpg" class="img-fluid" alt="foto van koffiemolen 1"
                       title="koffiemolen 1">
-                    <figcaption class="h6 mt-2">&copy; Julius Shulman</figcaption>
+                    <figcaption class="h6 small mt-2">&copy; Julius Shulman</figcaption>
                   </figure>
                 </a>
               </article>
-              <article class="col col-sm-6 col-md-4">
+              <article class="shop-item col-12 col-sm-6 col-md-4">
                 <h2 class="text-uppercase fs-6 fw-bolder pt-3">koffiemolen 2</h2>
                 <p class="h6 small">maal ze snel fijn</p>
                 <a href="#" rel="noopener">
-                  <figure><img src="./assets/pexels-5-wouter-de-jong.jpg" class="img-responsive" alt="foto van koffiemolen 2"
+                  <figure><img src="./assets/pexels-5-wouter-de-jong.jpg" class="img-fluid" alt="foto van koffiemolen 2"
                       title="koffiemolen 2">
-                    <figcaption class="h6 mt-2">&copy; Juan Arenas</figcaption>
+                    <figcaption class="h6 small mt-2">&copy; Juan Arenas</figcaption>
                   </figure>
                 </a>
               </article>
-              <article class="col-sm-6 col-md-4">
+              <article class="shop-item col-12 col-sm-6 col-md-4">
                 <h2 class="text-uppercase fs-6 fw-bolder pt-3">koffiemolen 3</h2>
                 <p class="h6 small">the old fashion way</p>
                 <a href="#" rel="noopener">
-                  <figure><img src="./assets/pexels-6-tom-swinnen.jpg" class="img-responsive" alt="foto van koffiemolen 3"
+                  <figure><img src="./assets/pexels-6-tom-swinnen.jpg" class="img-fluid" alt="foto van koffiemolen 3"
                       title="koffiemolen 3">
-                    <figcaption class="h6 mt-2">&copy; Tom Swinnen</figcaption>
+                    <figcaption class="h6 small mt-2">&copy; Tom Swinnen</figcaption>
                   </figure>
                 </a>
               </article>
@@ -138,32 +138,30 @@
               email <a href="mailto:mail@ap-coffeeshop.be">mail@ap-coffeeshop.be</a><br>
               phone +32 123 / 45 67 89</p>
             <ul class="list-inline socials">
-              <li class="nav-item list-inline-item ft-3 koffiebruin">
+              <li class="list-inline-item">
                 <a class="https://www.youtube.com" target="_blank">
-                  <i class="bi bi-youtube"></i>
+                  <i class="bi bi-youtube koffiebruin fs-3"></i>
                 </a>
               </li>
-              <li class="nav-item list-inline-item ft-3 koffiebruin">
+              <li class="list-inline-item">
                 <a href="https://www.instagram.com" target="_blank">
-                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-instagram koffiebruin fs-3"></i>
                 </a>
               </li>
-              <li class="nav-item list-inline-item ft-3 koffiebruin">
+              <li class="list-inline-item">
                 <a href="https://www.facebook.com" target="_blank">
-                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-facebook koffiebruin fs-3"></i>
                 </a>
               </li>
-              <li class="nav-item list-inline-item ft-3 koffiebruin">
+              <li class="list-inline-item">
                 <a href="https://twitter.com/" target="_blank">
-                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-twitter koffiebruin fs-3"></i>
                 </a>
               </li>
             </ul>
           </aside>
         </div>
     </div>
-    <footer class="container-fluid text-center h6 small p-4">&copy;
-      <h6 class="h6 text-center"> 2024 koffie enzo</h6>
-    </footer>
+    <footer class="container-fluid text-center h6 small p-4">2024 koffie enzo</footer>
   </body>
 </html>
